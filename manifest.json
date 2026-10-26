@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mlhunter.hotspot",
+  "name": "Hotspot",
+  "version": "1.0.0",
+  "author": "mlhunter",
+  "license": "MIT",
+  "description": "Share your connection over Wi-Fi from the bar. Set the network name, password, band (2.4 / 5 GHz) and security (WPA / WPA2 / WPA3), then toggle the hotspot with a click. Uses NetworkManager.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Hotspot",
+    "description": "Wi-Fi hotspot toggle and settings",
+    "category": "Network",
+    "allowMultiple": false,
+    "icon": "󰀂"
+  }
+}
